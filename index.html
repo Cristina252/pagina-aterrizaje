@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+    </style>
+
+    <title>DulceAntojo</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="#"><img id="logo" src="./image/1.png" alt="DulceAntojo" /></a>
+
+      <nav id="nav-bar">
+        <ul id="menu">
+          <li><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li><a class="nav-link" href="#productos">Productos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="inicio">
+      <div class="contenedor">
+        <div id="pr">
+          <h2>Dulce Antojo</h2>
+          <h4>Productos de repostería hechos con amor</h4>
+
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingrese su correo eléctronico"
+              required
+            />
+
+            <input id="submit" type="submit" class="boton" value="Cotizar" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="contenedor">
+        <h1>Contacto</h1>
+
+        <p class="infoContacto">Instagram: @dulceantojoconamor</p>
+
+        <p class="infoContacto">Correo eléctronico: dulceantojo@gmail.com</p>
+
+        <p class="infoContacto">WhatsApp: 3218425276</p>
+      </div>
+    </section>
+
+    <section id="productos">
+      <div class="contenedor">
+        <h1>Productos</h1>
+
+        <div class="flex-contenedor">
+          <div class="flex-item">
+            <video src="./multimedia/TORTAS.mp4" controls></video>
+          </div>
+          <div class="flex-item">
+            <img id="imagen1" src="./image/2.jpg" alt="producto1" />
+            <img id="imagen2" src="./image/3.jpg" alt="producto2" />
+            <img id="imagen3" src="./image/4.jpg" alt="producto3" />
+            <img id="imagen4" src="./image/5.jpg" alt="producto4" />
+          </div>
+      
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
